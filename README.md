@@ -1,21 +1,10 @@
-Gitbook 定制侧边栏Introduction文案插件
+Gitbook Introduction Link disable
 ==============
 
-在 book.json 中加入:
+book.json :
 
 ```
 {
-    plugins: ["diy-introduction"],
-    pluginsConfig: {
-        "introduction-text": "封面"
-    }
-}
-```
-
-禁用:
-
-```
-{
-    plugins: ["-diy-introduction"]
+    plugins: ["disable-introduction"]
 }
 ```
